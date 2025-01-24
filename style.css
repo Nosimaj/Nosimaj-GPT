@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #303030;
+    fill: white;
+   background-image: url(patternB.svg);
+   background-size: 80%;
+}
+
+.chat-container {
+    width: 100%;
+/*    max-width: 600px;*/
+    margin: 40px auto;
+    background-color: #cfcfcf;
+/*    background-image: url('ailsa-craig.svg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0, 0, 0.1);
+display: flex;
+flex-direction: column;
+}
+
+.chat-output {
+flex-grow: 1;
+margin: 20px;
+overflow-y: auto;
+max-height: 400px;
+}
+
+.chat-output p {
+margin: 10px 0;
+}
+
+.user-message {
+text-align: left;
+font-weight: bold;
+background-color: white;
+padding: 10px;
+}
+
+.bot-message {
+text-align: left;
+font-weight: normal;
+background-color: white;
+padding: 10px;
+}
+
+.chat-input-form {
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background-color: #cfcfcf;
+/*background: rgba(255, 255, 255, 0);*/
+}
+
+.chat-input {
+flex-grow: 1;
+border: none;
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.chat-submit {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+font-weight: bold;
+border: none;
+cursor: pointer;
+border-radius: 3px;
+}
+
+.chat-submit:hover {
+background-color: #0056b3;
+}
+
+
+#loading{
+    position: fixed; 
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent white background */
+    display: flex;     /* This is used to center the image both vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+/*    z-index: 1000;      This ensures the loading overlay is above other content */
+}
+/* BS Card border override  */
+.card{
+    border:0px!important;
+    margin-bottom: 20px;
+}
+.card-body{
+    border-radius: 8px;
+    border: solid 1px #b4b4b4;
+}
+
+.LloydIMG{
+    width:80px;
+    height:auto;
+}
+
+.LoydBlurb1{
+    font-size: 1rem;
+}
+
+.LoydBlurb2{
+    height: 80px;
+    text-align:right;
+    vertical-align: bottom;
+    font-size: .8rem;
+    max-width: 160px;
+}
+.footBar{
+    background: rgba(255, 255, 255, 0.7);
+    padding-bottom:20px;
+    padding-top: 10px;
+}
+
+/* Particles .JS */
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+/* End Particles .JS */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) { 
+    .LoydBlurb{
+    font-size: .9rem;
+    }
+ }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .LoydBlurb{
+    font-size: .9rem;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .LoydBlurb{
+    font-size: 1rem;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .LoydBlurb{
+    font-size: 1.2rem;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
