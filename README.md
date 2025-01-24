@@ -9,7 +9,7 @@ This repository contains a quick PHP-based GPT chat bot that is prompted to act 
 
 ## Personal Note
 
-Anyone can code this with Copilot or other AI tools, I took used GPT to learn and develop this code. This journey has allowed me to explore and create better experiences for tools like Copilot.
+Anyone can code this with Copilot or other AI tools, I used GPT to learn and develop this code. This journey has allowed me to explore and create better experiences for tools like Copilot.
 
 ## Make Your Own
 
