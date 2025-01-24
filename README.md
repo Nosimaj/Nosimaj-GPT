@@ -13,7 +13,7 @@ Anyone can code this with Copilot or other AI tools, I used GPT to learn and dev
 
 ## Make Your Own
 
-The sky's the limit! With this code, you can create your own best friend or advisor. Train the bot on various topics, and design in code to suit your needs.
+The sky's the limit! With this code, you can create your own GPT. Emmulate a best friend or advisor, train the bot on various topics, and design in code to suit your needs. Have at it, and thanks for checking out my project.
 
 ## Installation and Usage
 
